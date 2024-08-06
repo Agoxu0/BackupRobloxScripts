@@ -1,6 +1,6 @@
 local Player = game.Players.LocalPlayer
 local serverEndpoint = Player.Character:FindFirstChild("ServerEndpoint", true) or Player:FindFirstChild("ServerEndpoint", true)
-local classNames = {Part = "Normal", TrussPart = "Truss", WedgePart = "Wedge", CornerWedgePart = "Corner", SpawnLocation = "Spawn"}
+local classNames = {Part = "Normal", TrussPart = "Truss", WedgePart = "Wedge", CornerWedgePart = "Corner", SpawnLocation = "Spawn", Seat = "Seat"}
 local defaultProperties = {}
 local defaultPart = Instance.new("Part")
 local validMeshProperties = {"MeshType", "Scale", "Offset", "MeshId", "TextureId", "VertexColor"}
